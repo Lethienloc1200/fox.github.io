@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top {
+    background-image: url(images/1.jpg);
+    background-size: cover;
+    height: 700px;
+}
+
+img.hover-mouse.img-fluid:hover {
+    box-shadow: -4px 6px 15px 2px #000000a3;
+    transform: scale(1.01, 1.1);
+}
+
+img.hover-mouse.img-fluid {
+    transition: 0.6s;
+    box-shadow: 0px -1px 9px 3px #000000a3;
+    overflow: hidden;
+}
+
+.col-sm-7.chua-img {
+    overflow: hidden;
+}
+
+div#my-nav {
+    flex: inherit;
+}
+
+.row.footer-info {
+    margin: 46px;
+}
+
+.menutren {
+    background-color: transparent;
+}
+
+.logo {
+    background-color: orange;
+    padding: 20px 10px;
+    position: relative;
+    /*lam father de top len 7px*/
+    top: -8px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    font-weight: bold;
+}
+
+.top .menuphai a.nav-link {
+    text-transform: uppercase;
+    /*viet hoa*/
+    margin: 23px 10px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.top .menuphai a.nav-link:hover {
+    color: orange;
+}
+
+
+/*csscho banner*/
+
+.banner h1 {
+    color: white;
+    padding-top: 250px;
+}
+
+.banner p {
+    color: gray;
+    font-size: 14px;
+    padding-top: 15px;
+    padding-bottom: 48px;
+}
+
+.banner a {
+    font-size: 19px;
+    font-weight: bold;
+    padding: 10px 25px;
+}
+
+.logo {
+    transition: 0.5s;
+}
+
+.logo.chucam {
+    background-color: white;
+    color: orange;
+}
+
+.container-fluid.footer-info-ngoai {
+    background: #14141596;
+    height: 200px !important;
+    width: 100%;
+    display: block;
+    color: black;
+    font-weight: 500;
+}
+
+@media(max-width: 576px) {
+    * {}
+    /*để sửa trong chome cho nhanh*/
+    .banner h1 {
+        padding-top: 125px;
+        font-size: 37px;
+    }
+    .top {
+        height: 596px;
+    }
+    a.logo {
+        width: 150px;
+        left: 50%;
+        margin-left: -75px;
+        text-align: center;
+    }
+    .menuphai {
+        background-color: #686262;
+        width: 100%;
+        padding: 15px;
+        text-align: center;
+    }
+    .top .menuphai a.nav-link {
+        padding: 10px;
+    }
+    ul.navbar-nav.float-sm-right.menuphai {
+        width: 396px;
+        background: #2f49c86e;
+    }
+}
